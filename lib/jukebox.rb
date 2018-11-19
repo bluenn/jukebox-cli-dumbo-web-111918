@@ -77,7 +77,6 @@ def run(songs)
         #please enter a command input = gets.chomp
       when "list"
         list(songs)
-      #when "play"
       when "play"
         play(songs)
        else "exit"
